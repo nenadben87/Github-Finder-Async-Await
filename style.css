@@ -89,14 +89,14 @@ nav i {
 }
 
 .left-container .image-div img {
-  width: 400px;
+  width: 92%;
   height: 400px;
-  margin: 1rem
+  margin: 1rem;
 }
 
 .view-profile-btn {
   margin-left: 1rem;
-  width: 400px;
+  width: 92%;
   color: var(--white-color);
   background-color: var(--red-color);
   padding-top: 0.4rem;
@@ -114,8 +114,7 @@ nav i {
 .right-container {
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
-  margin-top: 5rem;
+  justify-content: center;
 }
 
 .right-container .badges {
@@ -196,16 +195,16 @@ footer {
   color: var(--dark-color);
 }
 
-.alert {
+body .alert {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: var(--white-color);
   background-color: var(--red-color);
-  margin-left: 410px;
+  /* margin-left: 410px; */
   border-radius: 5px;
 }
